@@ -8,3 +8,6 @@ def showInfo(df):
     print()
     print('# of missing/nan values in each column : ')
     print(df.isna().sum())
+    print()
+    print('Calling info method : ')
+    print(df.info())
