@@ -1,4 +1,6 @@
 # showInfo function diplays shape, # of duplicated, # of unique values, # of nan values, info of the dataframe.
+import string
+
 def showInfo(df):
     ''' input a dataframe '''
     print('shape : ', df.shape)
@@ -13,3 +15,8 @@ def showInfo(df):
     print()
     print('Calling info method : ')
     print(df.info())
+
+# This function takes a string and removes punctuations
+def remove_punctuations(string_):
+    text = [s for s in string_ if s not in string.punctuation]
+    return ''.join(text)
