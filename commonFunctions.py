@@ -1,4 +1,6 @@
+# showInfo function diplays shape, # of duplicated, # of unique values, # of nan values, info of the dataframe.
 def showInfo(df):
+    ''' input a dataframe '''
     print('shape : ', df.shape)
     print()
     print('# of duplicated rows : ', df.duplicated().sum())
