@@ -1,0 +1,10 @@
+def showInfo(df):
+    print('shape : ', df.shape)
+    print()
+    print('# of duplicated rows : ', df.duplicated().sum())
+    print()
+    print('# of unique values in each column : ')
+    print(df.nunique())
+    print()
+    print('# of missing/nan values in each column : ')
+    print(df.isna().sum())
