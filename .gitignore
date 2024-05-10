@@ -2,5 +2,4 @@ data/
 __pycache__/
 .ipynb_checkpoints/
 pickles/
-preprocessed_data/
 models/
