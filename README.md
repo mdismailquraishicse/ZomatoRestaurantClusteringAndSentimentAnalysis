@@ -9,3 +9,9 @@ Steps for using this project :
 <li> move the data in data/ folder</li>
 <li> firstly run eda_restaurant_names.ipynb, then run eda_reviews.ipynb, afterthat run main.ipynb.</li>
 </ol>
+
+
+![Screenshot (17)](https://github.com/mdismailquraishicse/ZomatoRestaurantClusteringAndSentimentAnalysis/assets/52546719/ebdee56f-9dc2-478b-8d18-76b3aef467fa)
+
+
+![Screenshot (18)](https://github.com/mdismailquraishicse/ZomatoRestaurantClusteringAndSentimentAnalysis/assets/52546719/fe200e9c-6d91-4ea9-9a4a-65bb8272c157)
