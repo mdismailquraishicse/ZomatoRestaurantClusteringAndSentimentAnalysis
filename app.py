@@ -20,10 +20,12 @@ def index():
 def recommend():
     name = request.form.get('userinput')
     rec = rr.recommend_restaurants(name,10)
+    dic = dict(rec)
+    x = df[df['Name'].isin(list(dic.keys()))]
+    x['score'] = x['Name'].apply(lambda i:dic[i])
+    x = x.sort_values(by='score',ascending=False)
     return render_template("recommendations.html",
-                           restaurants= rec,
-                           restaurant_names= restaurant_names
-    )
+                           df = x)
 
 if __name__=="__main__":
     Flask.run(debug=True)
