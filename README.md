@@ -10,8 +10,6 @@ Steps for using this project :
 <li> firstly run eda_restaurant_names.ipynb, then run eda_reviews.ipynb, afterthat run main.ipynb.</li>
 </ol>
 
+![Screenshot (23)](https://github.com/mdismailquraishicse/ZomatoRestaurantClusteringAndSentimentAnalysis/assets/52546719/76b1b84e-6e58-439f-bada-5a279d7e28d7)
 
-![Screenshot (17)](https://github.com/mdismailquraishicse/ZomatoRestaurantClusteringAndSentimentAnalysis/assets/52546719/ebdee56f-9dc2-478b-8d18-76b3aef467fa)
-
-
-![Screenshot (18)](https://github.com/mdismailquraishicse/ZomatoRestaurantClusteringAndSentimentAnalysis/assets/52546719/fe200e9c-6d91-4ea9-9a4a-65bb8272c157)
+![Screenshot (22)](https://github.com/mdismailquraishicse/ZomatoRestaurantClusteringAndSentimentAnalysis/assets/52546719/965c3a6d-1c64-4f0a-8e55-0bec10a214e8)
